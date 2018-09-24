@@ -354,7 +354,7 @@
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(117, 105);
             this.button14.TabIndex = 32;
-            this.button14.Text = "button14";
+            this.button14.Text = "Roll! (3)";
             this.button14.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -363,9 +363,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(33, 525);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 25);
+            this.label1.Size = new System.Drawing.Size(23, 25);
             this.label1.TabIndex = 33;
-            this.label1.Text = "label1";
+            this.label1.Text = "1";
             // 
             // label2
             // 
@@ -373,9 +373,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(114, 525);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 25);
+            this.label2.Size = new System.Drawing.Size(23, 25);
             this.label2.TabIndex = 34;
-            this.label2.Text = "label2";
+            this.label2.Text = "2";
             // 
             // label3
             // 
@@ -383,9 +383,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(196, 525);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(23, 25);
             this.label3.TabIndex = 36;
-            this.label3.Text = "label3";
+            this.label3.Text = "3";
             // 
             // label4
             // 
@@ -393,9 +393,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(278, 525);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 25);
+            this.label4.Size = new System.Drawing.Size(23, 25);
             this.label4.TabIndex = 35;
-            this.label4.Text = "label4";
+            this.label4.Text = "4";
             // 
             // label5
             // 
@@ -403,54 +403,60 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(359, 525);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 25);
+            this.label5.Size = new System.Drawing.Size(23, 25);
             this.label5.TabIndex = 37;
-            this.label5.Text = "label5";
+            this.label5.Text = "5";
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(65, 573);
+            this.checkBox1.Location = new System.Drawing.Point(38, 573);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.Size = new System.Drawing.Size(55, 19);
             this.checkBox1.TabIndex = 38;
+            this.checkBox1.Text = "Keep";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(135, 573);
+            this.checkBox2.Location = new System.Drawing.Point(119, 573);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.Size = new System.Drawing.Size(55, 19);
             this.checkBox2.TabIndex = 39;
+            this.checkBox2.Text = "Keep";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(218, 573);
+            this.checkBox3.Location = new System.Drawing.Point(201, 573);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.Size = new System.Drawing.Size(55, 19);
             this.checkBox3.TabIndex = 41;
+            this.checkBox3.Text = "Keep";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(307, 573);
+            this.checkBox4.Location = new System.Drawing.Point(283, 573);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.Size = new System.Drawing.Size(55, 19);
             this.checkBox4.TabIndex = 40;
+            this.checkBox4.Text = "Keep";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(383, 573);
+            this.checkBox5.Location = new System.Drawing.Point(364, 573);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
+            this.checkBox5.Size = new System.Drawing.Size(55, 19);
             this.checkBox5.TabIndex = 42;
+            this.checkBox5.Text = "Keep";
             this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // label6
             // 
