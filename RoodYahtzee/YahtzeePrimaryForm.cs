@@ -16,5 +16,10 @@ namespace RoodYahtzee
         {
             InitializeComponent();
         }
+
+        private void YahtzeePrimaryForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
