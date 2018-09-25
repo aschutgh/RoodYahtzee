@@ -456,7 +456,6 @@
             this.checkBoxDie5Keep.TabIndex = 42;
             this.checkBoxDie5Keep.Text = "Keep";
             this.checkBoxDie5Keep.UseVisualStyleBackColor = true;
-            this.checkBoxDie5Keep.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // labelTotalScore
             // 
