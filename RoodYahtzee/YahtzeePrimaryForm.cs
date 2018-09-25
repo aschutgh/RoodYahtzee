@@ -21,5 +21,15 @@ namespace RoodYahtzee
         {
 
         }
+
+        private void buttonRoll_MouseClick(object sender, MouseEventArgs e)
+        {
+            Random rand = new Random();
+            labelDie1.Text = rand.Next(1, 7).ToString();
+            labelDie2.Text = rand.Next(1, 7).ToString();
+            labelDie3.Text = rand.Next(1, 7).ToString();
+            labelDie4.Text = rand.Next(1, 7).ToString();
+            labelDie5.Text = rand.Next(1, 7).ToString();
+        }
     }
 }

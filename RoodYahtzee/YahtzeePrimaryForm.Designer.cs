@@ -356,6 +356,7 @@
             this.buttonRoll.TabIndex = 32;
             this.buttonRoll.Text = "Roll! (3)";
             this.buttonRoll.UseVisualStyleBackColor = true;
+            this.buttonRoll.MouseClick += new System.Windows.Forms.MouseEventHandler(this.buttonRoll_MouseClick);
             // 
             // labelDie1
             // 

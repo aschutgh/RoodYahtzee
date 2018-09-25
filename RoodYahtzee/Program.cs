@@ -6,6 +6,16 @@ using System.Windows.Forms;
 
 namespace RoodYahtzee
 {
+    public class ScoreBlock
+    {
+
+    }
+
+    public class Die
+    {
+
+    }
+
     static class Program
     {
         /// <summary>
