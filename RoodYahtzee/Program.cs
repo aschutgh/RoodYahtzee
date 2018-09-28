@@ -13,38 +13,7 @@ namespace RoodYahtzee
 
     public class Die
     {
-        public int Value { get; set; }
-        public bool Keep { get; set; }
 
-        public Die()
-        {
-            Keep = false;
-            Value = 0;
-        }
-
-        public void RollDie()
-        {
-            if (Keep == false)
-            {
-                Random rand = new Random();
-                Value = rand.Next(1, 7);
-            }
-        }
-
-        public override string ToString()
-        {
-            return Value.ToString();
-        }
-    }
-
-    public class GlobalVars
-    {
-        public bool InitialRoll { get; set; }
-
-        public GlobalVars()
-        {
-            InitialRoll = false;
-        }
     }
 
     static class Program

@@ -12,28 +12,9 @@ namespace RoodYahtzee
 {
     public partial class YahtzeePrimaryForm : Form
     {
-        public Die Die1;
-        public Die Die2;
-        public Die Die3;
-        public Die Die4;
-        public Die Die5;
-        public List<Die> Dice;
-
-
         public YahtzeePrimaryForm()
         {
             InitializeComponent();
-            Die1 = new Die();
-            Die2 = new Die();
-            Die3 = new Die();
-            Die4 = new Die();
-            Die5 = new Die();
-            Dice = new List<Die>();
-            Dice.Add(Die1);
-            Dice.Add(Die2);
-            Dice.Add(Die3);
-            Dice.Add(Die4);
-            Dice.Add(Die5);
         }
 
         private void YahtzeePrimaryForm_Load(object sender, EventArgs e)
